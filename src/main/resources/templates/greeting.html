@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Getting Started: Serving Web Content</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<p th:text="'Hello, ' + ${name} + '!'" />
+
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sit tempore
+			dolore iusto excepturi quidem praesentium dolorem tenetur voluptatibus!
+			Quidem voluptas iure obcaecati hic nisi corporis fugiat vitae iusto,
+			officia provident nemo voluptates voluptatum soluta sapiente cupiditate
+			placeat harum ex?
+		</p>
+
+		<img th:src="@{/images/helicopter.png}" width="600" height="600" />
+	</body>
+</html>
