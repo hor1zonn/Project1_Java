@@ -85,6 +85,8 @@ Project_Vladyslav_Ryzhyk/
 - **Description:** Returns a simple text greeting
 - **Response:** `"Hi, its mine spring project."`
 
+![Root Endpoint](screenshots/1screenshot.jpg)
+
 ### Greeting Page
 - **URL:** `/greeting`
 - **Method:** GET
@@ -92,6 +94,8 @@ Project_Vladyslav_Ryzhyk/
 - **Query Parameters:**
   - `name` (optional): Name to display in the greeting (default: "World")
 - **Example:** `http://localhost:8080/greeting?name=John`
+
+![Greeting Page](screenshots/2screenshot.jpg)
 
 ## 📝 Features
 
